@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omnifood-Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/favicon.png" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img
+          src="./img/omnifood-logo.png"
+          alt="omnifood-logo.png"
+          class="logo-omnifood"
+        />
+      </div>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="#how-it-work" class="nav-link">How it works</a></li>
+          <li><a href="#meals" class="nav-link">Meals</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li>
+            <a href="#try-for-free" class="nav-link btn btn--bold"
+              >Try for free</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-container container grid grid-col-2">
+          <div class="hero-text-item">
+            <h1 class="hero-text-item-title">
+              A healthy meal delivered to your door, every single day
+            </h1>
+            <div class="hero-text-item-description">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs.
+            </div>
+            <a href="#try-for-free" class="btn btn--bold margin-r"
+              >Start eating well</a
+            >
+            <a href="#how-it-work" class="btn btn--light">Learn more ↓</a>
+            <div class="imgs-face">
+              <div class="imgs">
+                <img src="./img/customers/customer-1.jpg" alt="custormer img" />
+                <img src="./img/customers/customer-2.jpg" alt="custormer img" />
+                <img src="./img/customers/customer-3.jpg" alt="custormer img" />
+                <img src="./img/customers/customer-4.jpg" alt="custormer img" />
+                <img src="./img/customers/customer-5.jpg" alt="custormer img" />
+                <img src="./img/customers/customer-6.jpg" alt="custormer img" />
+              </div>
+              <p class="text">
+                <span>250,000+ </span>meals delivered last year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-image-item">
+            <img src="./img/hero.png" alt="img girl meal" class="hero-img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-in">
+        <div class="container">
+          <h2 class="featured-in-title">AS FEATURED IN</h2>
+          <div class="featured-in-logos">
+            <img
+              src="./img/logos/techcrunch.png"
+              alt="techcrunch.png"
+              class="featured-in-logo"
+            />
+            <img
+              src="./img/logos/business-insider.png"
+              alt="business-insider.png"
+              class="featured-in-logo"
+            />
+            <img
+              src="./img/logos/the-new-york-times.png"
+              alt="the-new-york-times.png"
+              class="featured-in-logo"
+            />
+            <img
+              src="./img/logos/forbes.png"
+              alt="forbes.png"
+              class="featured-in-logo"
+            />
+            <img
+              src="./img/logos/usa-today.png"
+              alt="usa-today.png"
+              class="featured-in-logo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works" id="how-it-work">
+        <div class="container">
+          <div class="sub-heading">how it works</div>
+          <h2 class="heading">Your daily dose of health in 3 simple steps</h2>
+        </div>
+
+        <div class="container grid grid-col-2 grid-for-section-how">
+          <!-- 01 -->
+          <div class="item-how-text">
+            <p class="step-number">01</p>
+            <h3 class="step-heading">Tell us what you like (and what not)</h3>
+            <p class="step-description">
+              Never again waste time thinking about what to eat! Omnifood AI
+              will create a 100% personalized weekly meal plan just for you. It
+              makes sure you get all the nutrients and vitamins you need, no
+              matter what diet you follow!
+            </p>
+          </div>
+          <div class="item-how-img">
+            <img
+              src="./img/app/app-screen-1.png"
+              alt="pic-app-1"
+              class="img-aap"
+            />
+          </div>
+          <!-- 02 -->
+          <div class="item-how-img">
+            <img
+              src="./img/app/app-screen-2.png"
+              alt="pic-app-1"
+              class="img-aap"
+            />
+          </div>
+          <div class="item-how-text">
+            <p class="step-number">02</p>
+            <h3 class="step-heading">Approve your weekly meal plan</h3>
+            <p class="step-description">
+              Once per week, approve the meal plan generated for you by Omnifood
+              AI. You can change ingredients, swap entire meals, or even add
+              your own recipes.
+            </p>
+          </div>
+
+          <!-- 03 -->
+          <div class="item-how-text">
+            <p class="step-number">03</p>
+            <h3 class="step-heading">Receive meals at convenient time</h3>
+            <p class="step-description">
+              Best chefs in town will cook your selected meal every day, and we
+              will deliver it to your door whenever works best for you. You can
+              change delivery schedule and address daily!
+            </p>
+          </div>
+          <div class="item-how-img">
+            <img
+              src="./img/app/app-screen-3.png"
+              alt="pic-app-1"
+              class="img-aap"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="meals-section" id="meals">
+        <div class="container text-center">
+          <div class="sub-heading">MEALS</div>
+          <h2 class="heading">Omnifood AI chooses from 5,000+ recipes</h2>
+        </div>
+
+        <div class="container grid grid-col-3">
+          <div class="meal-item">
+            <img
+              src="./img/meals/meal-1.jpg"
+              alt="meal-1.jpg"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <p class="meal-tag meal-tag-green">VEGETARIAN</p>
+              </div>
+              <p class="meal-title">Japanese Gyozas</p>
+              <ul class="meal-content-list">
+                <li>
+                  <ion-icon
+                    class="icon-li-meal"
+                    name="flame-outline"
+                  ></ion-icon>
+                  <p class="text-li-meal"><strong>650</strong> calories</p>
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-li-meal"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <p class="text-li-meal">NutriScore ® <strong>74</strong></p>
+                </li>
+                <li>
+                  <ion-icon class="icon-li-meal" name="star-outline"></ion-icon>
+                  <p class="text-li-meal"><strong>4.9</strong> rating (537)</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal-item">
+            <img
+              src="./img/meals/meal-2.jpg"
+              alt="meal-2.jpg"
+              class="meal-img"
+            />
+
+            <div class="meal-content">
+              <div class="meal-tags">
+                <p class="meal-tag meal-tag-green">VEGAN</p>
+                <p class="meal-tag meal-tag-yellow">PALEO</p>
+              </div>
+              <p class="meal-title">Avocado Salad</p>
+              <ul class="meal-content-list">
+                <li>
+                  <ion-icon
+                    class="icon-li-meal"
+                    name="flame-outline"
+                  ></ion-icon>
+                  <p class="text-li-meal"><strong>400</strong> calories</p>
+                </li>
+                <li>
+                  <ion-icon
+                    class="icon-li-meal"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <p class="text-li-meal">NutriScore ® <strong>92</strong></p>
+                </li>
+                <li>
+                  <ion-icon class="icon-li-meal" name="star-outline"></ion-icon>
+                  <p class="text-li-meal"><strong>4.8</strong> rating (441)</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="aside-meals">
+            <h3 class="step-heading">Works with any diet:</h3>
+            <ul class="list-meals">
+              <li>
+                <ion-icon class="li-icon2" name="checkmark-outline"></ion-icon>
+                <p>Vegetarian</p>
+              </li>
+              <li>
+                <ion-icon class="li-icon2" name="checkmark-outline"></ion-icon>
+                <p>Vegan</p>
+              </li>
+              <li>
+                <ion-icon class="li-icon2" name="checkmark-outline"></ion-icon>
+                <p>Pescatarian</p>
+              </li>
+              <li>
+                <ion-icon class="li-icon2" name="checkmark-outline"></ion-icon>
+                <p>Gluten-free</p>
+              </li>
+              <li>
+                <ion-icon class="li-icon2" name="checkmark-outline"></ion-icon>
+                <p>Lactose-free</p>
+              </li>
+              <li>
+                <ion-icon class="li-icon2" name="checkmark-outline"></ion-icon>
+                <p>Keto</p>
+              </li>
+              <li>
+                <ion-icon class="li-icon2" name="checkmark-outline"></ion-icon>
+                <p>Paleo</p>
+              </li>
+              <li>
+                <ion-icon class="li-icon2" name="checkmark-outline"></ion-icon>
+                <p>Low FODMAP</p>
+              </li>
+              <li>
+                <ion-icon class="li-icon2" name="checkmark-outline"></ion-icon>
+                <p>Kid-friendly</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="wrapper-link container">
+          <a href="#" class="link-meal">See all recipes →</a>
+        </div>
+      </section>
+
+      <section class="testimonials-section" id="testimonials">
+        <div class="container-section">
+          <div class="review-col">
+            <div class="container2">
+              <div class="sub-heading">TESTIMONIALS</div>
+              <h2 class="heading">Once you try it, you can't go back</h2>
+            </div>
+
+            <div class="reviews-part">
+              <figure class="figure-custemor">
+                <img src="./img/customers/dave.jpg" alt="dave.jpg" />
+                <blockquote>
+                  Inexpensive, healthy and great-tasting meals, without even
+                  having to order manually! It feels truly magical.
+                </blockquote>
+                <p>— Dave Bryson</p>
+              </figure>
+
+              <figure class="figure-custemor">
+                <img src="./img/customers/ben.jpg" alt="ben.jpg" />
+                <blockquote>
+                  The AI algorithm is crazy good, it chooses the right meals for
+                  me every time. It's amazing not to worry about food anymore!
+                </blockquote>
+                <p>— Ben Hadley</p>
+              </figure>
+
+              <figure class="figure-custemor">
+                <img src="./img/customers/steve.jpg" alt="steve.jpg" />
+                <blockquote>
+                  Omnifood is a life saver! I just started a company, so there's
+                  no time for cooking. I couldn't live without my daily meals
+                  now!
+                </blockquote>
+                <p>— Steve Miller</p>
+              </figure>
+
+              <figure class="figure-custemor">
+                <img src="./img/customers/hannah.jpg" alt="hannah.jpg" />
+                <blockquote>
+                  I got Omnifood for the whole family, and it frees up so much
+                  time! Plus, everything is organic and vegan and without
+                  plastic.
+                </blockquote>
+                <p>— Hannah Smith</p>
+              </figure>
+            </div>
+          </div>
+          <div class="galary-col">
+            <figure>
+              <img src="./img/gallery/gallery-1.jpg" alt="gallery-1.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-2.jpg" alt="gallery-2.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-3.jpg" alt="gallery-3.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-4.jpg" alt="gallery-4.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-5.jpg" alt="gallery-5.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-6.jpg" alt="gallery-6.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-7.jpg" alt="gallery-7.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-8.jpg" alt="gallery-8.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-9.jpg" alt="gallery-9.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-10.jpg" alt="gallery-10.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-11.jpg" alt="gallery-11.jpg" />
+            </figure>
+            <figure>
+              <img src="./img/gallery/gallery-12.jpg" alt="gallery-12.jpg" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <div class="sub-heading">PRICING</div>
+          <h2 class="heading">Eating well without breaking the bank</h2>
+        </div>
+        <div class="container grid grid-col-2 pad-md">
+          <div class="price-item price-item-starter">
+            <div class="plan-header">
+              <p class="plan-name">STARTER</p>
+              <p class="plan-price"><span>$</span>399</p>
+              <p class="plan-text">per month. That's just $13 per meal!</p>
+            </div>
+            <ul class="plan-list">
+              <li>
+                <ion-icon
+                  class="icon-li-meal"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><span>1 meal per day</span>
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-li-meal"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><span>Order from 11am to 9pm</span>
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-li-meal"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><span>Delivery is free</span>
+              </li>
+              <li>
+                <ion-icon class="icon-li-meal" name="close-outline"></ion-icon>
+              </li>
+            </ul>
+
+            <div class="contaner-btn">
+              <a href="#" class="btn btn--bold margin-t"> Start eating well</a>
+            </div>
+          </div>
+
+          <div class="price-item price-item-complete">
+            <div class="plan-header">
+              <p class="plan-name">COMPLETE</p>
+              <p class="plan-price"><span>$</span>649</p>
+              <p class="plan-text">per month. That's just $11 per meal!</p>
+            </div>
+            <ul class="plan-list">
+              <li>
+                <ion-icon
+                  class="icon-li-meal"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><span><strong>2 meals</strong> per day</span>
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-li-meal"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><span>Order <strong>24/7</strong></span>
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-li-meal"
+                  name="checkmark-outline"
+                ></ion-icon
+                ><span>Delivery is free</span>
+              </li>
+              <li>
+                <ion-icon
+                  class="icon-li-meal"
+                  name="checkmark-outline"
+                ></ion-icon>
+                <span>Get access to latest recipes</span>
+              </li>
+            </ul>
+
+            <div class="contaner-btn">
+              <a href="#" class="btn btn--bold margin-t"> Start eating well</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="price-note-container">
+          <p class="price-note">
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans include the following:
+          </p>
+        </div>
+        <div class="features-part container grid grid-col-4">
+          <div class="feature-item">
+            <ion-icon class="icon-feature" name="infinite-outline"></ion-icon>
+            <p class="feature-title">Never cook again!</p>
+            <p class="feature-details">
+              Our subscriptions cover 365 days per year, even including major
+              holidays.
+            </p>
+          </div>
+          <div class="feature-item">
+            <ion-icon class="icon-feature" name="nutrition-outline"></ion-icon>
+            <p class="feature-title">Local and organic</p>
+            <p class="feature-details">
+              Our cooks only use local, fresh, and organic products to prepare
+              your meals.
+            </p>
+          </div>
+          <div class="feature-item">
+            <ion-icon class="icon-feature" name="leaf-outline"></ion-icon>
+            <p class="feature-title">No waste</p>
+            <p class="feature-details">
+              All our partners only use reusable containers to package all your
+              meals.
+            </p>
+          </div>
+          <div class="feature-item">
+            <ion-icon class="icon-feature" name="pause-outline"></ion-icon>
+            <p class="feature-title">Pause anytime</p>
+            <p class="feature-details">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" id="try-for-free">
+        <div class="container">
+          <div class="cta">
+            <div class="text-cta-col">
+              <h2 class="heading">Get your first meal for free!</h2>
+              <p class="cta-text-description">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+              <form class="cta-form grid grid-col-2" action="#">
+                <div>
+                  <label for="fullname">Full Name</label>
+                  <input
+                    type="text"
+                    name="full-name"
+                    id="fullname"
+                    placeholder="John Smith"
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    type="email"
+                    name="mail"
+                    id="email"
+                    placeholder="me@example.com"
+                  />
+                </div>
+
+                <div>
+                  <label for="social-platform"
+                    >Where did you hear from us?</label
+                  >
+                  <select name="social-platform" id="social-platform">
+                    <option value="">Friends and Family</option>
+                    <option value="">Youtube</option>
+                    <option value="">Podcast</option>
+                    <option value="">Facebook</option>
+                    <option value="">Others</option>
+                  </select>
+                </div>
+
+                <button class="cta-btn">Sign up now</button>
+              </form>
+            </div>
+            <div class="img-cta-col"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container grid--footer">
+        <div class="footer-logo-col">
+          <a href="#" class="link-logo-footer">
+            <img
+              src="./img/omnifood-logo.png"
+              alt="omnifood-logo.png"
+              class="logo-omnifood"
+            />
+          </a>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="link-social"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="link-social"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="link-social"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="text-copyright">
+            Copyright © 2027 by Omnifood, Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="contact-col">
+          <p class="title-col-footer">Contact us</p>
+          <address>
+            <p class="street">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p class="contact-list">
+              <a class="links-footer" href="">415-201-6370</a>
+              <a class="links-footer" href="">hello@omnifood.com</a>
+            </p>
+          </address>
+        </div>
+
+        <nav class="footer-nav">
+          <p class="title-col-footer">Contact us</p>
+          <ul class="list-nav-footer">
+            <li><a class="links-footer" href="">Create account</a></li>
+            <li><a class="links-footer" href="">Sign in</a></li>
+            <li><a class="links-footer" href="">iOS app</a></li>
+            <li><a class="links-footer" href="">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav">
+          <p class="title-col-footer">Company</p>
+          <ul class="list-nav-footer">
+            <li><a class="links-footer" href="">About Omnifood</a></li>
+            <li><a class="links-footer" href="">For Business</a></li>
+            <li><a class="links-footer" href="">Cooking partners</a></li>
+            <li><a class="links-footer" href="">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav">
+          <p class="title-col-footer">Resources</p>
+          <ul class="list-nav-footer">
+            <li><a class="links-footer" href="">Recipe directory</a></li>
+            <li><a class="links-footer" href="">Help center</a></li>
+            <li><a class="links-footer" href="">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
